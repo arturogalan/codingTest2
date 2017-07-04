@@ -23,7 +23,7 @@ Palindrome:
     *In log trace the function writes why the number is not a palindrome, in case of FALSE
 
 K-Complementary:
-    http://localhost:3000/kcomplementary?k=10&array=[1,2,-3,8,5,5]
+    http://localhost:3000/kcomplementary?k=10&array=[1,2,-3,8,6,4]
+    *returns 4 because: [2,8] [8,2] [6,4] [4,6] are the pairs that sum 10
 
-
-NOTE: To log into the console change the transport class in modules/logger.js    
+NOTE: To log into the console or in file, change the desired transport class in modules/logger.js    

@@ -18,10 +18,7 @@
   },
   "homepage": "https://github.com/arturogalan/codingTest2#readme",
   "dependencies": {
-    "express": "^4.14.0",
-    "throng": "4.0.0",
     "no-kafka":"^3.1.0",
-    "winston": "2.3.1",
-    "body-parser": "1.12.4"
+    "winston": "2.3.1"
   }
 }
