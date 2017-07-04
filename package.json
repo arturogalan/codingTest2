@@ -1,23 +1,27 @@
 {
-  "name": "logparser",
+  "name": "codingTest2",
   "version": "1.0.0",
-  "description": "parse files from file system",
+  "description": "Coding example algorithms",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+     "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/arturogalan/logParser.git"
+    "url": "git+https://github.com/arturogalan/codingTest2.git"
   },
   "author": "AGB",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/arturogalan/logParser/issues"
+    "url": "https://github.com/arturogalan/codingTest2/issues"
   },
-  "homepage": "https://github.com/arturogalan/logParser#readme",
+  "homepage": "https://github.com/arturogalan/codingTest2#readme",
   "dependencies": {
+    "express": "^4.14.0",
     "throng": "4.0.0",
-     "express": "4.13.4"
+    "no-kafka":"^3.1.0",
+    "winston": "2.3.1",
+    "body-parser": "1.12.4"
   }
 }
